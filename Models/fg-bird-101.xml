@@ -7,9 +7,9 @@
   <model>
     <path>Aircraft/FG-BIRD-101/Models/AlienFG/AlienFG.xml</path>
     <offsets>
-      <x-m> 0.0 </x-m>
-      <y-m> 0.0 </y-m>
-      <z-m> 0.0 </z-m>
+        <x-m> 0.0 </x-m>
+        <y-m> 0.0 </y-m>
+        <z-m> 0.0 </z-m>
     </offsets>
   </model>
  
@@ -67,9 +67,9 @@
   <model>
     <path>Aircraft/FG-BIRD-101/Models/yoke/yoke.xml</path>
     <offsets>
-      <x-m> 0.0 </x-m>
-      <y-m> 0.0 </y-m>
-      <z-m> 0.0 </z-m>
+        <x-m> 0.0 </x-m>
+        <y-m> 0.0 </y-m>
+        <z-m> 0.0 </z-m>
     </offsets>
   </model>
   
@@ -82,5 +82,40 @@
       <z-m> 0.0 </z-m>
     </offsets>
   </model>
- 
+  
+  <!-- SPINNING ANIMATION -->
+  <animation>
+    <type>spin</type>
+    <object-name>f-bird-01.002</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.012</factor>
+    <center>
+        <x-m> 1.55732 </x-m>
+        <y-m> 0.00000 </y-m>
+        <z-m> 0.78822 </z-m>
+    </center>
+    <axis>
+        <x>  1  </x>
+        <y>  0  </y>
+        <z>  0  </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>spin</type>
+    <object-name>f-bird-01.003</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.012</factor>
+    <center>
+        <x-m> 1.55732 </x-m>
+        <y-m> 0.00000 </y-m>
+        <z-m> 0.78822 </z-m>
+    </center>
+    <axis>
+        <x> -1  </x>
+        <y>  0  </y>
+        <z>  0  </z>
+    </axis>
+  </animation>
+
 </PropertyList>
