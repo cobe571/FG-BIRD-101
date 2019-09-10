@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+ <path>fg-bird-101.ac</path>
+ 
+  <!-- AlienFG -->
+  <model>
+    <path>Aircraft/FG-BIRD-101/Models/AlienFG/AlienFG.xml</path>
+    <offsets>
+      <x-m> 0.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+ 
+  <!-- AI 
+  <model>
+    <path>Aircraft/FG-BIRD-101/Models/ai/ai.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.964 </z-m>
+    </offsets>
+  </model> -->
+
+  <!-- AS 
+  <model>
+    <path>Aircraft/FG-BIRD-101/Models/AS/airspeed.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m> -0.150 </y-m>
+      <z-m>  0.964 </z-m>
+    </offsets>
+  </model> -->
+  
+  <!-- MACH 
+  <model>
+    <path>Aircraft/FG-BIRD-101/Models/mach/mach.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m> -0.150 </y-m>
+      <z-m>  0.964 </z-m>
+    </offsets>
+  </model> -->
+
+  <!-- ALT 
+  <model>
+    <path>Aircraft/FG-BIRD-101/Models/alt/alt.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m>  0.150 </y-m>
+      <z-m>  0.964 </z-m>
+    </offsets>
+  </model> -->
+  
+  <!-- RDMI 
+  <model>
+    <path>Aircraft/FG-BIRD-101/Models/RDMI/RDMI.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.999 </z-m>
+    </offsets>
+  </model> -->
+  
+  <!-- YOKE -->
+  <model>
+    <path>Aircraft/FG-BIRD-101/Models/yoke/yoke.xml</path>
+    <offsets>
+      <x-m> 0.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- THROTTLE -->
+  <model>
+    <path>Aircraft/FG-BIRD-101/Models/throttle/throttle.xml</path>
+    <offsets>
+      <x-m> 0.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+    </offsets>
+  </model>
+ 
+</PropertyList>
