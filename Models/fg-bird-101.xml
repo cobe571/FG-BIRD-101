@@ -63,6 +63,16 @@
     </offsets>
   </model> -->
   
+  <!-- HUD -->
+  <model>
+    <path>Aircraft/FG-BIRD-101/Models/HUD/HUD.xml</path>
+    <offsets>
+      <x-m> -1.497 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.963 </z-m>
+    </offsets>
+  </model>
+  
   <!-- YOKE -->
   <model>
     <path>Aircraft/FG-BIRD-101/Models/yoke/yoke.xml</path>
